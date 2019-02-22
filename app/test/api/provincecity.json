@@ -1,0 +1,33 @@
+{
+  "status": 0,
+  "msg": "success",
+  "data": [
+    {
+      "value": "110000",
+      "label": "北京市",
+      "children": [
+        {
+          "value": "110100",
+          "label": "北京市"
+
+        }
+      ]
+    },
+    {
+      "value": "320000",
+      "label": "江苏省",
+      "children": [
+        {
+          "value": "320100",
+          "label": "南京市"
+
+        },
+        {
+          "value": "320200",
+          "label": "无锡市"
+
+        }
+      ]
+    }
+  ]
+}

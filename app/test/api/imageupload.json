@@ -1,0 +1,477 @@
+{
+    "retno":0,
+    "retmsg":"成功",
+    "retdata":{
+        "type":"image",
+        "key":"53cc75f5b6668fba47d6eadfbcb22a4a.png",
+        "url":"http://fpu-fcrm.bos.qasandbox.bcetest.baidu.com/fpu-access/53cc75f5b6668fba47d6eadfbcb22a4a.png?authorization=bce-auth-v1%2F6f00eea69258433883bd474ab334c639%2F2017-12-20T02%3A49%3A05Z%2F-1%2F%2F7dbeb2e61f013d7222fea65844a5ac71f40f87c38eb4bf9889e7babd9815a202",
+        "filename":"无标题.png"
+    },
+    "data":{
+        "userinfo":{
+            "loginState":true,
+            "account":"dht02",
+            "userid":20154173,
+            "role":0
+        },
+        "leftBars":[
+            {
+                "uri":"",
+                "name":"商户准入管理",
+                "style":"fa-arrow-circle-o-right",
+                "child":[
+                    {
+                        "uri":"/access/apply/listforaudit",
+                        "name":"准入申请列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/access/apply/institutionforauditlistview",
+                        "name":"机构审核列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/access/shoplistview",
+                        "name":"机构管理列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"合同管理",
+                "style":"fa-file-text",
+                "child":[
+                    {
+                        "uri":"/contract/getlist",
+                        "name":"合同列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/contract/getauditlist",
+                        "name":"合同审核列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/contract/banklist",
+                        "name":"银行账户列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/contract/bankforauditlist",
+                        "name":"银行账户审核列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/contract/paymentapplylist",
+                        "name":"费率列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/contract/paymentapplyauditlist",
+                        "name":"费率审核列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/contract/frontpaymentparamlist",
+                        "name":"自主支付息费列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"申请单管理",
+                "style":"fa-table",
+                "child":[
+                    {
+                        "uri":"/sop/applyformsubmitlist_foraudit",
+                        "name":"申请单列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/sop/applyformauditlist_foraudit",
+                        "name":"申请单审核",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"商户信息管理",
+                "style":"fa-edit",
+                "child":[
+                    {
+                        "uri":"/sop/merchantlist",
+                        "name":"上线商户列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/sop/shoplistview",
+                        "name":"门店管理列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"贷款信息管理",
+                "style":"fa-jpy",
+                "child":[
+                    {
+                        "uri":"/sop/applyformloanorderlist",
+                        "name":"贷款进度查询",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/sop/shoploandetailview",
+                        "name":"贷款明细查询",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/sop/shoploanlistview",
+                        "name":"门店贷款查询",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/refund/frefundlist",
+                        "name":"退款信息列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"NPV管理",
+                "style":"fa-table",
+                "child":[
+                    {
+                        "uri":"/contract/npvcontribution",
+                        "name":"机构贡献评估",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"推广贷",
+                "style":"fa-dollar",
+                "child":[
+                    {
+                        "uri":"/ext/loanwhitelist",
+                        "name":"推广贷白名单查询",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/loancustomerapplylist",
+                        "name":"客户申请查询",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/customerorder",
+                        "name":"放款申请列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/loanaccountorderlist",
+                        "name":"加款订单查询",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"助贷管理",
+                "style":"fa-institution",
+                "child":[
+                    {
+                        "uri":"/crm/unionloanlist",
+                        "name":"助贷配置管理",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"金石平台管理",
+                "style":"fa-group",
+                "child":[
+                    {
+                        "uri":"/crm/viewuuapucaccountlist",
+                        "name":"金石帐号管理",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"场景配置",
+                "style":"fa-sitemap",
+                "child":[
+                    {
+                        "uri":"/ext/amis?amisPage=1917",
+                        "name":"场景管理",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"产品管理",
+                "style":"fa-server",
+                "child":[
+                    {
+                        "uri":"/ext/amis?amisPage=2099",
+                        "name":"产品客群管理",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/amis?amisPage=1920",
+                        "name":"产品规则管理",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/amis?amisPage=1921",
+                        "name":"产品策略管理",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"经营平台(联盟贷)",
+                "style":"fa-paw",
+                "child":[
+                    {
+                        "uri":"/ext/amis?amisPage=2297",
+                        "name":"优惠卷列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/amis?amisPage=2389",
+                        "name":" 活动列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/amis?amisPage=2390",
+                        "name":"活动子类型",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"经营平台(医美贷)",
+                "style":"fa-paw",
+                "child":[
+                    {
+                        "uri":"/ext/amis?amisPage=2383",
+                        "name":"优惠卷列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/amis?amisPage=2385",
+                        "name":" 活动列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/amis?amisPage=2386",
+                        "name":"活动子类型",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/amis?amisPage=2734",
+                        "name":"运营活动配置",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"经营平台(借现金)",
+                "style":"fa-paw",
+                "child":[
+                    {
+                        "uri":"/ext/amis?amisPage=2298",
+                        "name":"优惠卷列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/amis?amisPage=2305",
+                        "name":" 活动列表",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ext/amis?amisPage=2306",
+                        "name":"活动子类型",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"经营平台(现金贷)",
+                "style":"fa-paw",
+                "child":[
+                    {
+                        "uri":"/ext/amis?amisPage=2412",
+                        "name":"活动子类型",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "uri":"",
+                "name":"个人商机管理",
+                "style":"fa-arrow-circle-o-right",
+                "child":[
+                    {
+                        "uri":"/ccrm/group/housebusiness/list",
+                        "name":"房抵贷",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ccrm/group/cashbusiness/publiclist",
+                        "name":"现金贷公有池",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    },
+                    {
+                        "uri":"/ccrm/group/cashbusiness/privatelist",
+                        "name":"现金贷私有池",
+                        "style":null,
+                        "child":[
+
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+

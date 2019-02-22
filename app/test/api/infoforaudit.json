@@ -1,0 +1,666 @@
+{
+    "status": 0,
+    "msg": "成功",
+    "data": {
+        "userinfo": {
+            "loginState": true,
+            "account": "dht02",
+            "userid": 20154173,
+            "pos_id": 6000869,
+            "role": 0
+        },
+        "leftBars": [
+            {
+                "uri": "",
+                "name": "商户准入管理",
+                "style": "fa-arrow-circle-o-right",
+                "child": [
+                    {
+                        "uri": "/pcrm/group/access/apply/listforaudit",
+                        "name": "准入申请列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/pcrm/group/access/apply/institutionforauditlist",
+                        "name": "机构审核列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/pcrm/group/access/shoplistview",
+                        "name": "机构管理列表",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "合同管理",
+                "style": "fa-file-text",
+                "child": [
+                    {
+                        "uri": "/contract/getlist",
+                        "name": "合同列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/contract/getauditlist",
+                        "name": "合同审核列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/contract/banklist",
+                        "name": "银行账户列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/contract/bankforauditlist",
+                        "name": "银行账户审核列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/pcrm/group/contract/rateList",
+                        "name": "费率列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/pcrm/group/contract/rateApproveList",
+                        "name": "费率审核列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/pcrm/group/contract/selfPayRateList",
+                        "name": "自主支付息费列表",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "申请单管理",
+                "style": "fa-table",
+                "child": [
+                    {
+                        "uri": "/sop/applyformsubmitlist_foraudit",
+                        "name": "申请单列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/sop/applyformauditlist_foraudit",
+                        "name": "申请单审核",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "商户信息管理",
+                "style": "fa-edit",
+                "child": [
+                    {
+                        "uri": "/sop/merchantlist",
+                        "name": "上线商户列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/sop/shoplistview",
+                        "name": "门店管理列表",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "贷款信息管理",
+                "style": "fa-jpy",
+                "child": [
+                    {
+                        "uri": "/sop/applyformloanorderlist",
+                        "name": "贷款进度查询",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/sop/shoploandetailview",
+                        "name": "贷款明细查询",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/sop/shoploanlistview",
+                        "name": "门店贷款查询",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/refund/frefundlist",
+                        "name": "退款信息列表",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "NPV管理",
+                "style": "fa-table",
+                "child": [
+                    {
+                        "uri": "/contract/npvcontribution",
+                        "name": "机构贡献评估",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "推广贷",
+                "style": "fa-dollar",
+                "child": [
+                    {
+                        "uri": "/ext/loanwhitelist",
+                        "name": "推广贷白名单查询",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/loancustomerapplylist",
+                        "name": "客户申请查询",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/customerorder",
+                        "name": "放款申请列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/loanaccountorderlist",
+                        "name": "加款订单查询",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "助贷管理",
+                "style": "fa-institution",
+                "child": [
+                    {
+                        "uri": "/crm/unionloanlist",
+                        "name": "助贷配置管理",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "金石平台管理",
+                "style": "fa-group",
+                "child": [
+                    {
+                        "uri": "/crm/viewuuapucaccountlist",
+                        "name": "金石帐号管理",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "场景配置",
+                "style": "fa-sitemap",
+                "child": [
+                    {
+                        "uri": "/ext/amis?amisPage=1917",
+                        "name": "场景管理",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "产品管理",
+                "style": "fa-server",
+                "child": [
+                    {
+                        "uri": "/ext/amis?amisPage=2099",
+                        "name": "产品客群管理",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/amis?amisPage=1920",
+                        "name": "产品规则管理",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/amis?amisPage=1921",
+                        "name": "产品策略管理",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "经营平台(联盟贷)",
+                "style": "fa-paw",
+                "child": [
+                    {
+                        "uri": "/ext/amis?amisPage=2297",
+                        "name": "优惠卷列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/amis?amisPage=2389",
+                        "name": " 活动列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/amis?amisPage=2390",
+                        "name": "活动子类型",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "经营平台(医美贷)",
+                "style": "fa-paw",
+                "child": [
+                    {
+                        "uri": "/ext/amis?amisPage=2383",
+                        "name": "优惠卷列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/amis?amisPage=2385",
+                        "name": " 活动列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/amis?amisPage=2386",
+                        "name": "活动子类型",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/amis?amisPage=2734",
+                        "name": "运营活动配置",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "经营平台(借现金)",
+                "style": "fa-paw",
+                "child": [
+                    {
+                        "uri": "/ext/amis?amisPage=2298",
+                        "name": "优惠卷列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/amis?amisPage=2305",
+                        "name": " 活动列表",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ext/amis?amisPage=2306",
+                        "name": "活动子类型",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "经营平台(现金贷)",
+                "style": "fa-paw",
+                "child": [
+                    {
+                        "uri": "/ext/amis?amisPage=2412",
+                        "name": "活动子类型",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "uri": "",
+                "name": "个人商机管理",
+                "style": "fa-arrow-circle-o-right",
+                "child": [
+                    {
+                        "uri": "/ccrm/group/housebusiness/list",
+                        "name": "房抵贷",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ccrm/group/cashbusiness/publiclist",
+                        "name": "现金贷公有池",
+                        "style": null,
+                        "child": []
+                    },
+                    {
+                        "uri": "/ccrm/group/cashbusiness/privatelist",
+                        "name": "现金贷私有池",
+                        "style": null,
+                        "child": []
+                    }
+                ]
+            }
+        ],
+        "productList": {
+            "DXJ": "教育",
+            "YMD": "医美",
+            "JZD": "家装",
+            "ZFD": "租房",
+            "JCD": "建材",
+            "BJD": "度金贷额度"
+        },
+        "companyForauditData": {
+            "company_id": "302966",
+            "parent_company_id": "0",
+            "apply_type": "1",
+            "application_type": "1",
+            "channel_id": "QA",
+            "business_type": "0",
+            "company_type": "0",
+            "company_register_name": "12313",
+            "company_short_name": "",
+            "brand_name": "123",
+            "agent_brand_name": "23",
+            "cooperate_institutions_num": 2,
+            "train_type_level_one": "10001",
+            "train_type_level_two": "20001",
+            "train_type_level_three": "30001",
+            "trainTypeLevel": [
+                {
+                    "train_type_level_one": "10001",
+                    "train_type_level_two": "20001",
+                    "train_type_level_three": "30001"
+                }
+            ],
+            "status": "1",
+            "company_grade": "0",
+            "brand_quality_prove": [],
+            "institution_license_name": "",
+            "institution_license_due_date": "0",
+            "credentials_due_date": "",
+            "organ_number": "eee",
+            "social_credit_code": "23123",
+            "hospital_item": "",
+            "landlord_type": "0",
+            "register_province": "110000",
+            "register_city": "110100",
+            "detail_address": "23",
+            "register_date": "2017-02-02",
+            "register_capitial": "12",
+            "owner_name": "12",
+            "owner_identity_code": "120221199901018031",
+            "owner_position": "11",
+            "owner_cellphone": "",
+            "owner_identity_due_date": "11",
+            "contact_name": "11",
+            "contact_phone": "11",
+            "business_leader_name": "11",
+            "business_leader_identity": "11",
+            "business_leader_phone": "11",
+            "operating_resp_er_name": "1",
+            "operating_resp_er_identity": "1",
+            "operating_resp_er_phone": "1",
+            "operating_resp_er_position": "1",
+            "actual_controller_name": "1",
+            "actual_controller_identity": "1",
+            "actual_controller_phone": "1",
+            "actual_controller_position": "1",
+            "financial_charger_name": "1",
+            "financial_charger_identity": "1",
+            "financial_charger_phone": "1",
+            "financial_charger_position": "1",
+            "customer_service_phone": "1",
+            "company_telephone": "123",
+            "customer_channel": "",
+            "business_scope": "123",
+            "business_cover_city": "123",
+            "main_business": "",
+            "branch_manage_mode": "0",
+            "join_authorized": "0",
+            "company_name": "",
+            "company_url": "123",
+            "advertising_account": "",
+            "listed_company": "0",
+            "bd_credit_rating": "0",
+            "is_stock_right_chanage": "0",
+            "is_manage_right_chanage": "0",
+            "company_peroid": "0",
+            "is_ka": "0",
+            "emigration_file": "",
+            "remarks": "",
+            "company_grade_source": "0",
+            "risk_refused_info": "",
+            "channel_risk_info": "",
+            "regional_manager_info": "",
+            "apply_source": "3",
+            "company_ucid": "0",
+            "create_bd_ucid": "20154173",
+            "charge_bd_ucid": "20154173",
+            "pos_id": "6000869",
+            "channel_risk_ucid": "0",
+            "channel_risk_time": "0",
+            "regional_manager_ucid": "0",
+            "regional_manager_time": "0",
+            "completion_rate": "0.00",
+            "is_del": "0",
+            "create_time": "1514009470",
+            "update_time": "0",
+            "access_success_time": "0",
+            "modify_time": "2017-12-23 14:11:21",
+            "business_license_copy_file": "",
+            "owner_identity_positive": "",
+            "owner_identity_other_side": "",
+            "is_need_caution_money": "",
+            "client_payment_method": "",
+            "brand_agent_type": "",
+            "delivery_period": "",
+            "uarantee_period": "12",
+            "logistics": "",
+            "lease_contract": "",
+            "sales_contract": "",
+            "production_license": "",
+            "trade_mark_paper": "",
+            "check_id": "1360",
+            "check_time": "0",
+            "office_space": "0",
+            "space_is_work": "0",
+            "is_fixed_office": "0",
+            "is_fixed_office_space": "0",
+            "is_fixed_educate_space": "0",
+            "address_1": "",
+            "principal_1": "",
+            "principal_phone_1": "",
+            "address_2": "",
+            "principal_2": "",
+            "principal_phone_2": "",
+            "local_check4": "",
+            "negative_news": "",
+            "company_number": "",
+            "logistics_complete": "",
+            "repertory_complete": "",
+            "place_of_business_pic": "",
+            "model_houses_pic": "",
+            "area_office_space_pic": "",
+            "other_pic": "",
+            "competitiveInfo": [
+                {
+                    "competitive_id": "4335",
+                    "company_id": "302966",
+                    "cooperate_institution_name": "123",
+                    "cooperate_duration_year": "0.00",
+                    "loan_rate": "0.00",
+                    "last_year_loan_amount": "0.00",
+                    "last_year_loan_num": "0",
+                    "lending_institutions_cooperate_way": "",
+                    "competitive_remarks": "",
+                    "competitive_type": "0",
+                    "limit_customer": "",
+                    "pass_rate": "0.00",
+                    "compete_advantage": "0",
+                    "product_form_p1": "",
+                    "customer_character_p1": "",
+                    "project_price_p1": "0.00",
+                    "down_payment_rate_p1": "0.00",
+                    "repayment_way_p1": "",
+                    "approval_timeliness_p1": "0.00",
+                    "product_form_p2": "",
+                    "customer_character_p2": "",
+                    "project_price_p2": "0.00",
+                    "down_payment_rate_p2": "0.00",
+                    "repayment_way_p2": "",
+                    "approval_timeliness_p2": "0.00",
+                    "is_cooperate_memedai": "0",
+                    "cooperate_start_time_memedai": "1513612800",
+                    "last_year_loan_amount_memedai": "0.00",
+                    "last_month_loan_amount_memedai": "23.00",
+                    "avg_loan_amount_memedai": "123.00",
+                    "stage_number_memedai": "123",
+                    "repayment_way_memedai": "23",
+                    "consumer_rate_memedai": "123.00",
+                    "institutions_bear_rate_memedai": "23.00",
+                    "cooperative_way_memedai": "0",
+                    "cooperative_institutional_lending_rate": "123.00"
+                },
+                {
+                    "competitive_id": "4335",
+                    "company_id": "302966",
+                    "cooperate_institution_name": "第二组",
+                    "cooperate_duration_year": "0.00",
+                    "loan_rate": "0.00",
+                    "last_year_loan_amount": "0.00",
+                    "last_year_loan_num": "0",
+                    "lending_institutions_cooperate_way": "",
+                    "competitive_remarks": "",
+                    "competitive_type": "0",
+                    "limit_customer": "",
+                    "pass_rate": "0.00",
+                    "compete_advantage": "0",
+                    "product_form_p1": "",
+                    "customer_character_p1": "",
+                    "project_price_p1": "0.00",
+                    "down_payment_rate_p1": "0.00",
+                    "repayment_way_p1": "",
+                    "approval_timeliness_p1": "0.00",
+                    "product_form_p2": "",
+                    "customer_character_p2": "",
+                    "project_price_p2": "0.00",
+                    "down_payment_rate_p2": "0.00",
+                    "repayment_way_p2": "",
+                    "approval_timeliness_p2": "0.00",
+                    "is_cooperate_memedai": "0",
+                    "cooperate_start_time_memedai": "1513612800",
+                    "last_year_loan_amount_memedai": "0.00",
+                    "last_month_loan_amount_memedai": "23.00",
+                    "avg_loan_amount_memedai": "123.00",
+                    "stage_number_memedai": "123",
+                    "repayment_way_memedai": "23",
+                    "consumer_rate_memedai": "123.00",
+                    "institutions_bear_rate_memedai": "23.00",
+                    "cooperative_way_memedai": "0",
+                    "cooperative_institutional_lending_rate": "123.00"
+                }
+            ],
+            "scale_id": "7986",
+            "staff_num": "0",
+            "doctor_num": "0",
+            "designer_num": "0",
+            "branch_institution_num": "0",
+            "physical_store_num": "23",
+            "last_year_customer_num": "0",
+            "last_year_new_customer_num": "0",
+            "last_year_old_customer_num": "0",
+            "last_3month_customer_num": "0",
+            "last_3month_agent_channel_customer_num": "0",
+            "last_year_income": "",
+            "last_year_income_growth_rate": "122.00",
+            "last_year_payout": "0.00",
+            "current_year_income_target": "13.00",
+            "expected_cooperation_num": "123",
+            "expected_cooperation_amount": "23.00",
+            "avg_price": "23.00",
+            "package_price": "23",
+            "above_10w_percent": "0.00",
+            "equal_level_city_price_comparison": "0",
+            "area": "0.00",
+            "competitive_id": "4335",
+            "cooperate_institution_name": "123",
+            "cooperate_duration_year": "0.00",
+            "loan_rate": "0.00",
+            "last_year_loan_amount": "0.00",
+            "last_year_loan_num": "0",
+            "lending_institutions_cooperate_way": "",
+            "competitive_remarks": "",
+            "competitive_type": "0",
+            "limit_customer": "",
+            "pass_rate": "0.00",
+            "compete_advantage": "0",
+            "product_form_p1": "",
+            "customer_character_p1": "",
+            "project_price_p1": "0.00",
+            "down_payment_rate_p1": "0.00",
+            "repayment_way_p1": "",
+            "approval_timeliness_p1": "0.00",
+            "product_form_p2": "",
+            "customer_character_p2": "",
+            "project_price_p2": "0.00",
+            "down_payment_rate_p2": "0.00",
+            "repayment_way_p2": "",
+            "approval_timeliness_p2": "0.00",
+            "is_cooperate_memedai": "0",
+            "cooperate_start_time_memedai": "1513612800",
+            "last_year_loan_amount_memedai": "0.00",
+            "last_month_loan_amount_memedai": "23.00",
+            "avg_loan_amount_memedai": "123.00",
+            "stage_number_memedai": "123",
+            "repayment_way_memedai": "23",
+            "consumer_rate_memedai": "123.00",
+            "institutions_bear_rate_memedai": "23.00",
+            "cooperative_way_memedai": "0",
+            "cooperative_institutional_lending_rate": "123.00"
+        },
+        "action": "detail",
+        "funPerm": {
+            "institutionapplyedit": true
+        }
+    }
+}

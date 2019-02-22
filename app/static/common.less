@@ -1,0 +1,80 @@
+/**
+ * @file 公共样式
+ * @author zengqingzhuang(zengqingzhuang@baidu.com)
+ */
+/*
+ * 字体
+ */
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+}
+
+/*
+ * 浮动
+ */
+.clearfix {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+/*
+ * 通用渐变
+ */
+a {
+    text-decoration: none;
+    color: #58666e;
+    cursor: pointer;
+    transition: color .18s linear;
+}
+
+/*
+ * 动画
+ */
+
+//== fade
+//
+//## 渐显或渐出（1 <=> 0）
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.fade-enter-active, .fade-leave-active {
+    transition: all .2s ease;
+}
+.fade-enter,.fade-leave-active {
+    opacity: 0;
+}
+p {
+    margin: 0;
+}
+
+
+
+

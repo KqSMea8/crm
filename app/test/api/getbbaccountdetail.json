@@ -1,0 +1,79 @@
+{
+  "status":0,
+  "msg":"成功",
+  "csrfToken": "126345345345345345",
+  "data": {
+    "account_no": "1231231231312312313",
+    "acctnum": "111111111111111111",
+    "company_main_body": "重庆小贷款",
+    "account_arrival_time": "2018-12-12  12:12:12",
+    "remark": "贷款缓缓测试测试测试测试测试测试测",
+    "bill_money": "12311.12",
+    "serial_number": "123123123123131313",
+    "payer_account": "122233333333333333",
+    "payer_name": "张三三三",
+    "bill_type_name": "已合单",
+    "status_name": "待认款",
+    "product_name": "教育",
+    "accept_account_type_name": "退款确认（线上）",
+    "bussiness_credentials_type_name": "借据号",
+    "bussiness_credentials_number": "12312312313123123",
+    "accept_account_remark": "教育认款",
+    "accept_account_ucname": "李思思",
+    "accept_account_time": "2010-12-12 12:12:12",
+    "uc_name": "小张张",
+    "operation_time": "2019-12-12 12:12:12",
+    "confirm_ucname": "李思思1",
+    "confirm_time": "2019-12-12 12:12:11",
+    "create_time": "2019-11-12 12:12:11",
+    "modify_time": "2019-11-14 12:12:11",
+    "exclusive_no":"123123123",
+    "bid":"11fff3332dd",
+    "parent": [
+      {
+        "account_no": "111111111111111",
+        "bill_money": "1231.11",
+        "serial_number":"aaaaaaaaa",
+        "status_name": "已合单",
+        "accept_account_type_name": "退款（线上）",
+        "bussiness_credentials_type": "借据",
+        "bussiness_credentials_number": "123123131312313123"
+
+      },
+      {
+        "account_no": "222222222222",
+        "bill_money": "111131.11",
+        "status_name": "已合单",
+        "serial_number":"bbbbbbbb",
+        "accept_account_type_name": "退款（线上）",
+        "bussiness_credentials_type": "借据",
+        "bussiness_credentials_number": "123123131312313123"
+      }
+    ],
+    "child": [
+      {
+        "account_no": "111111111111111",
+        "bill_money": "1231.11",
+        "status_name": "已合单",
+        "serial_number":"cccccccc",
+        "accept_account_type_name": "退款（线上）",
+        "bussiness_credentials_type": "借据",
+        "bussiness_credentials_number": "123123131312313123"
+
+      },
+      {
+        "account_no": "222222222222",
+        "bill_money": "111131.11",
+        "status_name": "已合单",
+        "accept_account_type_name": "退款（线上）",
+        "bussiness_credentials_type": "借据",
+        "serial_number":"dddddd",
+        "bussiness_credentials_number": "123123131312313123"
+      }
+    ],
+    "can_cancel": true
+
+  }
+
+}
+

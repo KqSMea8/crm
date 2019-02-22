@@ -1,0 +1,410 @@
+{
+    "status":0,
+    "msg":"成功",
+    "data":{
+        "charge_bd_ucid":"20154173",
+        "productId":"DXJ",
+        "companyRegisterName":"上海市震旦进修学院",
+        "ownerName":"",
+        "ownerIdentityCode":"",
+        "ownerCellphone":"",
+        "industryLabel":"职业学历>成人继续教育>自考培训机构",
+        "train_type_level_one":"10003",
+        "trainList":{
+            "10003_20008_30027":{
+                "oneId":10003,
+                "twoId":20008,
+                "threeId":30027,
+                "oneName":"职业学历",
+                "twoName":"成人继续教育",
+                "threeName":"自考培训机构"
+            }
+        },
+        "productName":"教育",
+        "repaymentType":{
+            "1":{
+                "metaType":"repayment_type",
+                "metaCode":"1",
+                "name":"等本等费",
+                "desc":"等本等费={等额还款}",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            },
+            "2":{
+                "metaType":"repayment_type",
+                "metaCode":"2",
+                "name":"前低后高",
+                "desc":"前低后高={非等额还款}",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            },
+            "3":{
+                "metaType":"repayment_type",
+                "metaCode":"3",
+                "name":"前零后高",
+                "desc":"前零后高={延期还款}",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            },
+            "4":{
+                "metaType":"repayment_type",
+                "metaCode":"4",
+                "name":"非对称还款",
+                "desc":"非对称还款 ={非常规分期}",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            }
+        },
+        "amortizationType":{
+            "1":{
+                "metaType":"amortization_type",
+                "metaCode":"1",
+                "name":"贴息全额摊销",
+                "desc":"贴息全额摊销",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            },
+            "3":{
+                "metaType":"amortization_type",
+                "metaCode":"3",
+                "name":"按借款人使用资金天数摊销",
+                "desc":"按借款人使用资金天数摊销={按日摊销}",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            },
+            "5":{
+                "metaType":"amortization_type",
+                "metaCode":"5",
+                "name":"按借款人使用资金期数摊销",
+                "desc":"按借款人使用资金期数摊销={按期摊销}",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            }
+        },
+        "refundType":{
+            "1":{
+                "metaType":"refund_type",
+                "metaCode":"1",
+                "name":"全额退款",
+                "desc":"全额退款",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            },
+            "2":{
+                "metaType":"refund_type",
+                "metaCode":"2",
+                "name":"按借款人已消费金额结算",
+                "desc":"按借款人已消费金额结算={按消费金额结算}",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            },
+            "3":{
+                "metaType":"refund_type",
+                "metaCode":"3",
+                "name":"按借款人已还金额结算",
+                "desc":"按借款人已还金额结算={按已还金额结算}",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            }
+        },
+        "applyType":{
+            "1":{
+                "metaType":"rate_type",
+                "metaCode":"1",
+                "name":"初始费率",
+                "desc":"费率特批邮件；其他附件",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            }
+        },
+        "is_section_refund":[
+            {
+                "metaType":"is_section_refund",
+                "metaCode":"0",
+                "name":"不允许部分退款",
+                "desc":"是否允许部分退款",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            },
+            {
+                "metaType":"is_section_refund",
+                "metaCode":"1",
+                "name":"允许部分退款",
+                "desc":"是否允许部分退款",
+                "level":1,
+                "isSubset":0,
+                "subInfo":[
+
+                ]
+            }
+        ],
+        "paymentRateInfo":{
+            "editStatus":3,
+            "applyInfo":{
+                "id":"7575",
+                "paymentApplyCode":"00320171109000001",
+                "contractCode":"00120170926000001",
+                "companyId":"303530",
+                "companyRegisterName":"上海市震旦进修学院",
+                "contactName":"",
+                "contactIdentifyCode":"",
+                "contactPhone":"",
+                "trainTypeLevelOne":"10003",
+                "trainTypeLevelTwo":"20008",
+                "trainTypeLevelThree":"30027",
+                "refundType":"1",
+                "amortizationType":"1",
+                "institutionInterestFreeDays":"30",
+                "userInterestFreeDays":"30",
+                "userRefundViolateRate":"1.00",
+                "prepaymentViolateRate":"2.00",
+                "prepaymentDayType":"1",
+                "prepaymentDayNum":"0",
+                "isAllowPrepayment":"1",
+                "isAllowCancelGrace":"1",
+                "isSectionRefund":"1",
+                "cancelGracePeriodDays":"1",
+                "delayRepaymentDays":"0",
+                "maxAmountCharge":"0",
+                "minAmountCharge":"0",
+                "applyNote":"",
+                "applyType":"1",
+                "userId":"20154173",
+                "posId":"6000869",
+                "channelId":"QA",
+                "checkPoint":"0",
+                "productId":"DXJ",
+                "status":"1",
+                "isReceiveContract":"0",
+                "createTime":"2017-11-09 17:33:04",
+                "submitTime":"2017-12-11 09:59:11",
+                "modifyTime":"2017-12-11 09:59:11"
+            },
+            "rateList":[
+                {
+                    "id":"40793",
+                    "paymentInfo":{
+                        "id":"40793",
+                        "paymentRateCode":"00520171109000001",
+                        "paymentApplyCode":"00320171109000001",
+                        "paymentPlanCode":"0",
+                        "repaymentType":"1",
+                        "totalInstalmentNum":"6",
+                        "totalInstalmentNum_old":"61",
+                        "merchantInstalmentRate":"1.30",
+                        "firstInstalmentNum":"6",
+                        "firstPrincipalRate":"100.00",
+                        "firstCustomerPaymentRate":"0.88",
+                        "secondInstalmentNum":"0",
+                        "secondPrincipalRate":"0.00",
+                        "secondCustomerPaymentRate":"0.00",
+                        "irr":"22.51",
+                        "status":"0",
+                        "refPaymentApplyCode":"0",
+                        "productId":"DXJ",
+                        "priceMultiplierSwitch":"1",
+                        "priceMultiplierPolicyId":"15016654549",
+                        "priceMultiplierPolicyName":"低学历面签",
+                        "userId":"20154173",
+                        "posId":"6000869",
+                        "createTime":"2017-11-09 17:33:04",
+                        "modifyTime":"2017-11-13 19:25:01",
+                        "isRefreshPno":"0",
+                        "customerLevel":-1,
+                        "irr_forbid_lower_limit":false,
+                        "irr_forbid_upper_limit":false,
+                        "irr_warning_lower_limit":false,
+                        "irr_warning_upper_limit":false,
+                        "irr_system_check":null,
+                        "subPaymentInfo":{
+                            "B1":{
+                                "customerLevel":"B1",
+                                "merchantInstalmentRate":"1.30",
+                                "firstCustomerPaymentRate":"0.95",
+                                "secondCustomerPaymentRate":"0",
+                                "irr":"23.92",
+                                "irr_forbid_lower_limit":false,
+                                "irr_forbid_upper_limit":false,
+                                "irr_warning_lower_limit":false,
+                                "irr_warning_upper_limit":false,
+                                "irr_system_check":null
+                            },
+                            "B2":{
+                                "customerLevel":"B2",
+                                "merchantInstalmentRate":"1.30",
+                                "firstCustomerPaymentRate":"0.85",
+                                "secondCustomerPaymentRate":"0",
+                                "irr":"21.90",
+                                "irr_forbid_lower_limit":false,
+                                "irr_forbid_upper_limit":false,
+                                "irr_warning_lower_limit":false,
+                                "irr_warning_upper_limit":false,
+                                "irr_system_check":null
+                            }
+                        },
+                        "trainList":{
+                            "10003_20008_30027":{
+                                "paymentRateCode":"00520171109000001",
+                                "oneId":10003,
+                                "twoId":20008,
+                                "threeId":30027,
+                                "checked":true
+                            }
+                        }
+                    }
+                },
+                {
+                    "id":"40795",
+                    "paymentInfo":{
+                        "id":"40795",
+                        "paymentRateCode":"00520171114000001",
+                        "paymentApplyCode":"00320171109000001",
+                        "paymentPlanCode":"0",
+                        "repaymentType":"2",
+                        "totalInstalmentNum":"12",
+                        "merchantInstalmentRate":"0.41",
+                        "firstInstalmentNum":"12",
+                        "firstPrincipalRate":"100.00",
+                        "firstCustomerPaymentRate":"0.51",
+                        "secondInstalmentNum":"0",
+                        "secondPrincipalRate":"0.00",
+                        "secondCustomerPaymentRate":"0.00",
+                        "irr":"11.89",
+                        "status":"0",
+                        "refPaymentApplyCode":"0",
+                        "productId":"DXJ",
+                        "priceMultiplierSwitch":"1",
+                        "priceMultiplierPolicyId":"15016654549",
+                        "priceMultiplierPolicyName":"低学历面签",
+                        "userId":"20154173",
+                        "posId":"6000869",
+                        "createTime":"2017-11-14 20:24:55",
+                        "modifyTime":"2017-12-06 10:46:56",
+                        "isRefreshPno":"0",
+                        "customerLevel":-1,
+                        "irr_forbid_lower_limit":false,
+                        "irr_forbid_upper_limit":false,
+                        "irr_warning_lower_limit":true,
+                        "irr_warning_upper_limit":false,
+                        "irr_system_check":"当前IRR为:11.89%,。<br/><br/>[系统预警IRR的下限为:15%]<br/>已超过产品预警下限!",
+                        "subPaymentInfo":{
+                            "":{
+                                "customerLevel":"",
+                                "merchantInstalmentRate":"0",
+                                "firstCustomerPaymentRate":"100.00",
+                                "secondCustomerPaymentRate":"0",
+                                "irr":"23.92",
+                                "irr_forbid_lower_limit":false,
+                                "irr_forbid_upper_limit":false,
+                                "irr_warning_lower_limit":false,
+                                "irr_warning_upper_limit":false,
+                                "irr_system_check":null
+                            },
+                            "B2":{
+                                "customerLevel":"B2",
+                                "merchantInstalmentRate":"0.41",
+                                "firstCustomerPaymentRate":"0.59",
+                                "secondCustomerPaymentRate":"0",
+                                "irr":"13.60",
+                                "irr_forbid_lower_limit":false,
+                                "irr_forbid_upper_limit":false,
+                                "irr_warning_lower_limit":true,
+                                "irr_warning_upper_limit":false,
+                                "irr_system_check":"当前IRR为:13.60%,。<br/><br/>[系统预警IRR的下限为:15%]<br/>已超过产品预警下限!"
+                            },
+                            "B1":{
+                                "customerLevel":"B1",
+                                "merchantInstalmentRate":"0.41",
+                                "firstCustomerPaymentRate":"1.08",
+                                "secondCustomerPaymentRate":"0.00",
+                                "irr":"23.92",
+                                "irr_forbid_lower_limit":false,
+                                "irr_forbid_upper_limit":false,
+                                "irr_warning_lower_limit":false,
+                                "irr_warning_upper_limit":false,
+                                "irr_system_check":null
+                            }
+                        },
+                        "trainList":{
+                            "10003_20008_30027":{
+                                "paymentRateCode":"00520171114000001",
+                                "oneId":10003,
+                                "twoId":20008,
+                                "threeId":30027,
+                                "checked":true
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "file": {
+            "0": [
+                {
+                    "key": "f1fb9a7c7d61aa9a1fba2b174e9987b8.png",
+                    "fileName": "dcd4f8e2e3394b808d9885796.png",
+                    "src": "http://fpu-fcrm.bos.qasandbox.bcetest.baidu.com/fpu-access/f1fb9a7c7d61aa9a1fba2b174e9987b8.png?authorization=bce-auth-v1%2F6f00eea69258433883bd474ab334c639%2F2017-08-02T08%3A23%3A35Z%2F-1%2F%2F05c60a381325f35185a0a08d7f8dd278fdb47eadeb7b564ab5e9c1673e4642f8",
+                    "type": "png"
+                }
+            ],
+            "4": [
+                {
+                    "key": "50dca9ec37dc943a49c4dfa6008aa760.png",
+                    "fileName": "dcd4f8e2e3394b808d9885796.png",
+                    "src": "http://fpu-fcrm.bos.qasandbox.bcetest.baidu.com/fpu-access/50dca9ec37dc943a49c4dfa6008aa760.png?authorization=bce-auth-v1%2F6f00eea69258433883bd474ab334c639%2F2017-08-02T08%3A23%3A23Z%2F-1%2F%2F5520fb7a28f6a840377f87eab8c281a2f0d26324acd28c507cade065794f929e",
+                    "type": "png"
+                }
+            ]
+        },
+        "processLogList": [
+            {
+                "createTime": "2017-08-07 13:58:53",
+                "operatorUcid": "20154173",
+                "operatorName": "戴洪涛",
+                "operatorType": "费率提交通过",
+                "remarks": "提交申请单信息"
+            }
+        ],
+        "operationType":4,
+        "isAllowPriceMultiplier":1,
+        "priceMultiplierSwitch":"1",
+        "priceMultiplierPolicyId":"15016654549"
+    }
+}
+

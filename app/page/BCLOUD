@@ -1,0 +1,1 @@
+BUILD_SUBMITTER -u . -x -e FIS -m baidu/fsg-crm/crm-common-fe -c "cd baidu/fsg-crm/crm-common-fe && sh build.sh"

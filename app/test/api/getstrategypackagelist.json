@@ -1,0 +1,28 @@
+     
+{
+    "status":0,
+    "msg":"成功",
+    "data":[
+        {
+            "priceMultiplierPolicyId":"15016654549",
+            "priceMultiplierPolicyName":"教育低学历大额面签",
+            "priceMultiplierPolicyDesc":"教育按学历管控IRR",
+            "customerLists":{
+                "B1":{
+                    "floatType":"2",
+                    "irrReferenceValue":"24.00",
+                    "irrUpperLimit":"25",
+                    "irrLowerLimit":"23.00",
+                    "customerCode":"B1",
+                    "customerName":"低学历客群"
+                },
+                "B2":{
+                    "floatType":"1",
+                    "irrRatio":"10000",
+                    "customerCode":"B2",
+                    "customerName":"非低学历客群"
+                }
+            }
+        }
+    ]
+}

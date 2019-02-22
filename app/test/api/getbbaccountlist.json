@@ -1,0 +1,93 @@
+{
+  "status":0,
+  "msg":"成功",
+  "data": {
+    "count":11,
+    "downloadUrl":"http://www.baidu.com",
+    "login_ucid": "abcdefxd102299x",
+    "rows":[
+      {
+        "account_no":"1231231231231231312",
+        "acctnum":"a",
+        "bill_money": "12311.00",
+        "remark": "测试摘要测试摘要测试摘",
+        "serial_number": "12312311111111111111111",
+        "payer_name": "张三三",
+        "payer_account": "1412412312312312",
+        "status_name": "待认款",
+        "product_id": "教育",
+        "accept_account_type_name": "退款（线上）",
+        "pos_name": "李四四",
+        "account_arrival_time": "2019-12-12 12:12:12",
+        "modify_time": "2019-12-11 12:12:12",
+        "operation": {
+          "can_split": true,
+          "can_merge": true,
+          "can_receive": true
+        }
+      },
+      {
+        "account_no":"12312312331312",
+        "acctnum":"a",
+        "bill_money": "12311.00",
+        "remark": "测试摘要测试摘要测试摘要测试摘",
+        "serial_number": "12312311111111111111111",
+        "payer_name": "张三三",
+        "payer_account": "1412412312312312",
+        "status_name": "待认款",
+        "product_id": "教育",
+        "accept_account_type_name": "退款（线上）",
+        "pos_name": "李四四",
+        "account_arrival_time": "2019-12-12 12:12:12",
+        "modify_time": "2019-12-11 12:12:12",
+        "operation": {
+          "can_split": true,
+          "can_merge": true,
+          "can_receive": true
+        }
+      },
+      {
+        "account_no":"1231231231231312",
+        "acctnum":"a",
+        "bill_money": "12311.00",
+        "remark": "测试摘要测试摘要摘要测试摘",
+        "serial_number": "12312311111111111111111",
+        "payer_name": "张三三",
+        "payer_account": "1412412312312312",
+        "status_name": "待认款",
+        "product_id": "教育",
+        "accept_account_type_name": "退款（线上）",
+        "pos_name": "李四四",
+        "account_arrival_time": "2019-12-12 12:12:12",
+        "modify_time": "2019-12-11 12:12:12",
+        "operation": {
+          "can_split": true,
+          "can_merge": true,
+          "can_receive": true
+        }
+      },
+      {
+        "account_no":"1231231231231231312",
+        "acctnum":"1234",
+        "bill_money": "12311.00",
+        "remark": "测试摘要测试摘要测试摘要测试摘",
+        "serial_number": "12312311111111111111111",
+        "payer_name": "张三三",
+        "payer_account": "1412412312312312",
+        "status_name": "待认款",
+        "product_id": "教育",
+        "accept_account_type_name": "退款（线上）",
+        "pos_name": "李四四",
+        "account_arrival_time": "2019-12-12 12:12:12",
+        "modify_time": "2019-12-11 12:12:12",
+        "operation": {
+          "can_split": true,
+          "can_merge": true,
+          "can_receive": true
+        }
+      }
+
+    ]
+  }
+}
+
